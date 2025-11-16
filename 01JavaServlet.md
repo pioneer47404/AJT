@@ -1,7 +1,7 @@
 <img width="380" height="405" alt="image" src="https://github.com/user-attachments/assets/99123234-abeb-496e-8472-210fe4640e39" />
 
 
-
+```
 // RequestHandler.java
 
 
@@ -31,7 +31,9 @@ public class RequestHandler extends HttpServlet {
 		out.println("Email: " + email);
 	}
 }
+```
 
+```
 
 // index.html
 <!DOCTYPE html>
@@ -49,3 +51,5 @@ public class RequestHandler extends HttpServlet {
 	</form>
 </body>
 </html>
+
+```
