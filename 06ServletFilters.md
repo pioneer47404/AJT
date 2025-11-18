@@ -1,4 +1,4 @@
-Prefer Tomcat 9 or 10.1
+Prefer Tomcat 10.1
 
 <img width="380" height="428" alt="image" src="https://github.com/user-attachments/assets/b2c926d4-8414-43c1-9472-defc27003930" />
 
