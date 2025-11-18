@@ -4,6 +4,9 @@ mysql 8.0 command line client
 Java Connector jar file => in lib
 https://dev.mysql.com/downloads/connector/j/
 
+<img width="366" height="484" alt="image" src="https://github.com/user-attachments/assets/a8d7de06-ce2b-4be3-b4b6-d350d092be41" />
+
+
 ```
 CREATE DATABASE studentdb;
 
