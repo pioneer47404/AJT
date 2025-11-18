@@ -25,6 +25,7 @@ public class SessionGetServlet extends HttpServlet {
 
         resp.getWriter().println("<h2>Welcome: " + name + "</h2>");
     }
+}
 
 ```
 
@@ -75,5 +76,5 @@ public class SessionSetServlet extends HttpServlet {
 </body>
 </html>
 ```
-}
+
 
