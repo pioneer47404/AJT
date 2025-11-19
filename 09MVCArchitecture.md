@@ -79,18 +79,23 @@ public class User {
 
 ```
 //result.jsp
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" import="com.model.User" %>
 <!DOCTYPE html>
 <html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
 <body>
+	<h2>MVC Demo - Result Page</h2>
 
-<h2>MVC Demo - Input Form</h2>
+<%
+    User u = (User) request.getAttribute("userdata");
+%>
 
-<form action="UserController" method="post">
-    Name: <input type="text" name="name"><br><br>
-    Email: <input type="text" name="email"><br><br>
-    <input type="submit" value="Submit">
-</form>
-
+<p>Name: <%= u.getName() %></p>
+<p>Email: <%= u.getEmail() %></p>
 </body>
 </html>
 ```
